@@ -26,5 +26,5 @@
     var lvl = $("#cha_lvl").val();
     var dmg_type = $("#type").val();
     var dmg = $("#type option:selected").text();
-    document.getElementById("trap").innerHTML = 'Your Trap: ' + damage[dmg_type] + levels[lvl][sev] + ' ' + dmg + " damage." + " To Hit: " + to_hit[sev]  + " To Save: " + save[sev];
+    document.getElementById("trap").innerHTML = damage[dmg_type] + levels[lvl][sev] + ' ' + dmg + " damage." + " To Hit: " + to_hit[sev]  + " To Save: " + save[sev];
 }
